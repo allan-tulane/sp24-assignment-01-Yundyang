@@ -18,8 +18,8 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
-.  
-.  
+
+.  no. because $ 2^{2^n} $is euqal to $4^n$ which is obviously faster then $O(2^n)$.
 .  
 .  
 .  
