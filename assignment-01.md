@@ -19,18 +19,18 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
 
-.  no. because $ 2^{2^n} $is euqal to $4^n$ which is obviously faster then $O(2^n)$.
+    no. because $ 2^{2^n} $is euqal to $4^n$ which is obviously faster then $O(2^n)$.
 .  
 .  
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
-.  
-.  
+
+    no. because $n^{1.01}$ is faster then $O(\mathrm{log} ^ 2 n)$, so cannot use big 
 .  
 .  
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
-.  
+    yes. becuase $n^{1.01}$ is faster then $O(\mathrm{log} ^ 2 n)$, so can use $\Omega(\mathrm{log}^2 n)$
 .  
 .  
 .  
