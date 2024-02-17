@@ -63,7 +63,8 @@ $$
 
   - 2b. (6 pts) What does this function do, in your own words?  
 
-.  
+    it is used for caculating the fibonacci sequence. when x is euqal to 0 or 1, this will return x, because 0 and x are the first 2 elements in fibonacci sequence. For any other value of x, the function calls itself with the two previous values x - 1 and x - 2, sums the results of these two calls, and returns that sum, which corresponds to the Fibonacci number at position x.
+    
 .  
 .  
 .  
