@@ -35,13 +35,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
-.  
+
+    no. because squart root function is faster the log function, so cannot use big o.
 .  
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
 
+    yes. because squart root function is faster the log function, so we need use the omega
 
 2. **SPARC to Python** (12 pts)
 
