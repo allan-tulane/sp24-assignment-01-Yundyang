@@ -111,7 +111,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
   - 3d. (4 pts) What is the Work and Span of this sequential algorithm?  
 
     work is O(n)
-    span is O($ log n$)
+    span is O(log n)
 .  
 .  
 .  
