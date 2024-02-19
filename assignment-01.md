@@ -94,8 +94,8 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3b. (4 pts) What is the Work and Span of this implementation?  
 
-    work is $o(n)$
-    span is $o(1)$
+    work is O(n)
+    span is O(1)
 .  
 .  
 .  
@@ -121,7 +121,8 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3e. (4 pts) Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm?  
 
-.  
+    work is O(n)
+    span is O(logn)
 .  
 .  
 .  
